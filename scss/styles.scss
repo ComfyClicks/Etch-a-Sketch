@@ -1,0 +1,36 @@
+html, body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 4rem;
+  color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 
+    0 0 5px orange, 
+    0 0 2px yellow, 
+    0 0 2px blue, 
+    0 0 2px indigo, 
+    0 0 2px violet;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #000;
+  width: 60%;
+  height: 60%;
+}
+
+#container div {
+  box-sizing: border-box;
+  width: calc(100% / 16);
+  height: calc(100% / 16);
+}
