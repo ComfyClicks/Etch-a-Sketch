@@ -53,6 +53,10 @@ h1 {
     box-shadow: 
       0 0 5px orange, 
       0 0 2px yellow;
+
+    &:hover {
+      transform: scale(1.02);
+    }
   }
 }
 
@@ -68,6 +72,10 @@ h1 {
   box-shadow: 
     0 0 5px orange, 
     0 0 2px yellow;
+    
+  &:hover {
+    transform: scale(1.02);
+  }
 }
 
 #input {
@@ -85,5 +93,9 @@ h1 {
     box-shadow: 
       0 0 5px orange, 
       0 0 2px yellow;
+  }
+
+  &:hover {
+    transform: scale(1.01);
   }
 }

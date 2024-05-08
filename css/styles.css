@@ -45,6 +45,9 @@ h1 {
   text-shadow: 0 0 5px orange, 0 0 2px yellow;
   box-shadow: 0 0 5px orange, 0 0 2px yellow;
 }
+#buttonContainer button:hover {
+  transform: scale(1.02);
+}
 
 #sizeBtn {
   height: 30px;
@@ -54,6 +57,9 @@ h1 {
   border-radius: 4px;
   text-shadow: 0 0 5px orange, 0 0 2px yellow;
   box-shadow: 0 0 5px orange, 0 0 2px yellow;
+}
+#sizeBtn:hover {
+  transform: scale(1.02);
 }
 
 #input {
@@ -69,6 +75,9 @@ h1 {
   color: black;
   font-style: normal;
   box-shadow: 0 0 5px orange, 0 0 2px yellow;
+}
+#input:hover {
+  transform: scale(1.01);
 }
 
 /*# sourceMappingURL=styles.css.map */
