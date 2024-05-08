@@ -1,5 +1,6 @@
 html, body {
   display: flex;
+  background-color: beige;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -19,6 +20,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  background-color: mintcream;
   border: 1px solid #000;
   width: 60%;
   height: 60%;
@@ -28,6 +30,45 @@ h1 {
   box-sizing: border-box;
   width: 6.25%;
   height: 6.25%;
+}
+
+#buttonContainer {
+  margin: 8px;
+}
+#buttonContainer button {
+  width: 110px;
+  height: 30px;
+  color: brown;
+  background-color: gold;
+  border-color: orange;
+  border-radius: 4px;
+  text-shadow: 0 0 5px orange, 0 0 2px yellow;
+  box-shadow: 0 0 5px orange, 0 0 2px yellow;
+}
+
+#sizeBtn {
+  height: 30px;
+  color: brown;
+  background-color: gold;
+  border-color: orange;
+  border-radius: 4px;
+  text-shadow: 0 0 5px orange, 0 0 2px yellow;
+  box-shadow: 0 0 5px orange, 0 0 2px yellow;
+}
+
+#input {
+  height: 24px;
+  border-color: orange;
+  border-radius: 4px;
+  text-align: center;
+  font-style: italic;
+  color: gray;
+}
+#input:focus {
+  border: 2px solid orange;
+  color: black;
+  font-style: normal;
+  box-shadow: 0 0 5px orange, 0 0 2px yellow;
 }
 
 /*# sourceMappingURL=styles.css.map */
