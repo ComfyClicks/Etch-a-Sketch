@@ -2,6 +2,10 @@
 
 # Etch-a-Sketch
 
+🖌️ 🖋️ ✏️ [Live Preview](https://comfyclicks.github.io/Etch-a-Sketch/) ✏️ 🖋️ 🖌️
+
+<img src="assets/Etch-a-Sketch.png" width="500">
+
 ## Technologies Used 
 
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
